@@ -1,3 +1,4 @@
+#To make the 9*9 board into partitions of 3*3
 def print_board(board):
     for i in range(9):
         if i % 3 == 0 and i != 0:
