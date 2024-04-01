@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-ibROa1t5FNxHajgijtr5EutxTR+0rSGOIrAwDI7hnrIQzgPJ8XJM+d5d6BEma0R8ITJYzCZpimSSUbvmdSqQdw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h1>Your Name</h1>
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <h2>Welcome to My Portfolio</h2>
+        </div>
+    </header>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <!-- Add your project showcase here -->
+            <div class="project">
+                <h3>Project Title</h3>
+                <p>Description of the project goes here.</p>
+                <a href="#">GitHub Link</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements">
+        <div class="container">
+            <h2>Achievements</h2>
+            <!-- Add your achievements display here -->
+            <div class="achievement">
+                <h3>Achievement Title</h3>
+                <p>Description of the achievement goes here.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <!-- Add your skills presentation here -->
+            <div class="skill">
+                <h3>Skill Name</h3>
+                <p>Description of the skill goes here.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <!-- Add your contact form or information here -->
+            <div class="contact-info">
+                <p>Email: your@email.com</p>
+                <p>Phone: 123-456-7890</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2022 Your Name</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
